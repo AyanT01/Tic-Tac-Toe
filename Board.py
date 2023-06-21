@@ -1,7 +1,8 @@
 class Board:
-    board = [" "," "," ",
-             " "," "," ",
-             " "," "," "]
+    def __init__(self):
+        board = [" "," "," ",
+                " "," "," ",
+                " "," "," "]
     def print_board(self):
         print(f"  {self.board[0]}| {self.board[1]} | {self.board[2]}")
         print("-----------")
